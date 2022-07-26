@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;500;600;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.card {
+  width: 70%;
+  height: auto;
+  text-align: center;
+
+  margin-top: 40px;
+}
+.card-img img {
+  width: 100%;
+  min-width: 100%;
+  margin-bottom: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card-title h1 {
+  margin: 0;
+  text-align: center;
+  margin: 20px 0;
+  font-size: 100%;
+}
+
+.card-title p {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  font-size: 105%;
+}
+
+.plan {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-button-plan {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-button-plan img {
+  margin-right: 20px;
+}
+
+.card-plan a {
+  text-decoration: none;
+  color: blueviolet;
+}
+
+.card-payment button {
+  width: 100%;
+  background-color: blue;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  display: block;
+  padding: 0.9em;
+  border: none;
+}
+
+.card a {
+  text-decoration: none;
+  display: block;
+}
+
+.card-plan {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+
+.link {
+  margin-left: auto;
+}
